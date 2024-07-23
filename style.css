@@ -1,5 +1,5 @@
 div.subtable:has(table#GKG_INFO_VIEW){
-  overflow: unset;
+  overflow: unset !important;
 }
 
 table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(1){
