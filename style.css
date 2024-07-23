@@ -1,47 +1,73 @@
 div.subtable:has(table#GKG_INFO_VIEW){
-    overflow: unset !important;
-  }
-  
-  table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(1){
-    position: sticky;
-    left: 0;
-  }
-  
-  table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(2){
-    position: sticky;
-    left: 29px;
-    border-left: 1px solid transparent;
-  }
-  
-  table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(2):before{
-    content: '';
-    border-left: 1px solid #c7c7c7;
-    left: 1px;
-    top: 0;
-    height: 100%;
-    width: 1px;
-    position: absolute;
-    margin-left: -1px; 
-  }
+  overflow: unset !important;
+}
 
-  table#GKG_INFO_VIEW > tbody tr td:nth-child(1){
-    position: sticky;
-    left: 0;
-  }
+table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(1){
+  position: sticky;
+  left: 0;
+}
 
-  table#GKG_INFO_VIEW > tbody tr td:nth-child(2){
-    position: sticky;
-    left: 29px;
-    border-left: 1px solid transparent;
-  }
+table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(2){
+  position: sticky;
+  left: 29px;
+  border-left: 1px solid transparent;
+}
 
-  table#GKG_INFO_VIEW > tbody tr td:nth-child(2):before{
-    content: '';
-    border-left: 1px solid #c7c7c7;
-    left: 1px;
-    top: 0;
-    height: 100%;
-    width: 1px;
-    position: absolute;
-    margin-left: -1px; 
-  }
+table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(2):before{
+  content: '';
+  border-left: 1px solid #c7c7c7;
+  left: 1px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  margin-left: -1px; 
+}
+
+table#GKG_INFO_VIEW > thead tr#div_GKG_INFO_VIEW_header th:nth-child(2):after{
+  content: '';
+  border-right: 1px solid #c7c7c7;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+}
+
+table#GKG_INFO_VIEW > tbody tr td:nth-child(1){
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+}
+
+table#GKG_INFO_VIEW > tbody tr td:nth-child(2){
+  position: sticky;
+  left: 29px;
+  background: white;
+  z-index: 1;
+}
+
+table#GKG_INFO_VIEW > tbody tr td:nth-child(2):before{
+  content: '';
+  border-left: 1px solid #c7c7c7;
+  left: 1px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  margin-left: -1px; 
+}
+
+table#GKG_INFO_VIEW > tbody tr td:nth-child(2):after{
+  content: '';
+  border-right: 1px solid #c7c7c7;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+}
+
+
+
