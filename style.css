@@ -24,18 +24,18 @@ div.subtable:has(table#GKG_INFO_VIEW){
     margin-left: -1px; 
   }
 
-  table#GKG_INFO_VIEW > tbody tr td:nth-child(2){
+  table#GKG_INFO_VIEW > tbody tr td:nth-child(1){
     position: sticky;
     left: 0;
   }
 
-  table#GKG_INFO_VIEW > tbody tr td:nth-child(3){
+  table#GKG_INFO_VIEW > tbody tr td:nth-child(2){
     position: sticky;
     left: 29px;
     border-left: 1px solid transparent;
   }
 
-  table#GKG_INFO_VIEW > tbody tr td:nth-child(3):before{
+  table#GKG_INFO_VIEW > tbody tr td:nth-child(2):before{
     content: '';
     border-left: 1px solid #c7c7c7;
     left: 1px;
